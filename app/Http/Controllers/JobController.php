@@ -23,7 +23,7 @@ class JobController extends Controller
         return view("detail.detail", compact('photos', 'job'));
     }
 
-    public function findSimilar($id, Request $request)
+    public function findSimilar($id, Request $request) //
     {
         $job = Job::find($id);
         if ($request->hasFile('file')) {
