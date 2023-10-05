@@ -22,7 +22,7 @@
                                     <div class="caption center mt-30"
                                          style="transform: translate3d(0px, 0px, 0px); opacity: 1;">
                                         <h1 class="color-font">Tìm ảnh Eventus</h1>
-                                        <p style="font-size: 16pt">Hệ thống mang đến cho bạn những điều mới lạ và tuyệt vời nhất và chỉ có tại Eventus Production </p>
+{{--                                        <p style="font-size: 16pt">Hệ thống mang đến cho bạn những điều mới lạ và tuyệt vời nhất và chỉ có tại Eventus Production </p>--}}
                                         {{--                                    <a href="https://ui-themez.smartinnovates.net/items/vie/vie-light/#0"--}}
                                         {{--                                       class="butn bord curve mt-30">--}}
                                         {{--                                        --}}
