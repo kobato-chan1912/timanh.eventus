@@ -35,7 +35,7 @@
                 <div class="col-lg-3">
                     <div class="item mt-30">
                         <h6>SỐ LƯỢNG </h6>
-                        <p>{{count($photos)}} ảnh</p>
+                        <p>{{$photoCount}} ảnh</p>
                     </div>
                 </div>
             </div>

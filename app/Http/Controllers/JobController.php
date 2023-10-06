@@ -20,7 +20,8 @@ class JobController extends Controller
     {
         $job = Job::find($id);
         $photos = $job->photos()->paginate(60);
-        return view("detail.detail", compact('photos', 'job'));
+        $photoCount = $job->photos()->count();
+        return view("detail.detail", compact('photos', 'job', 'photoCount'));
     }
 
     public function findSimilar($id, Request $request) //
@@ -48,10 +49,10 @@ class JobController extends Controller
                 }
 
                 $photos = Photo::whereIn("aws_image_id", $arrayResult)->get();
-
+                $photoCount = $photos->count();
                 $usePaginate = 0;
-                $success = "Tìm kiếm khuôn mặt thành công!";
-                return view("detail.detail", compact('job', 'photos', 'usePaginate', 'success'));
+                $success = "Có $photoCount bức ảnh được tìm thấy!";
+                return view("detail.detail", compact('job', 'photos', 'usePaginate', 'success', 'photoCount'));
             }
 
             return redirect()->route("photos.index", $job->id)->with(["message" => "Hình ảnh phải có khuôn mặt!"]);
