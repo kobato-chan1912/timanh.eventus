@@ -68,6 +68,14 @@
 
 @section('page-js')
     <script>
+        $( document ).ready(function() {
+            // $(".swiper-slide-prev").remove()
+            $("#job_select").remove()
+            $(".swiper-slide-next").remove()
+        });
+
+
+
         function loadImage()
         {
             let jobId = ($("#job_select").val())
