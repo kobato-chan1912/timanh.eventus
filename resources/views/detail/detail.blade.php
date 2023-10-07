@@ -15,7 +15,7 @@
 
     <section class="page-header proj-det bg-img parallaxie valign"
              data-background="@if($job->timanh_thumbnail !== null) {{env("STORAGE"). $job->timanh_thumbnail}} @else {{env("STORAGE"). "/images/bg-timanh.jpg"}} @endif"
-             data-overlay-dark="4">
+             data-overlay-dark="6">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-9">
