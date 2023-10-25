@@ -123,10 +123,11 @@
                         </div>
                     @endforeach
                 </div>
+
                 @if(isset($success))
-                <div class="pagination">
-                    <a href="{{route("photos.index", $job->id)}}" class="butn bord curve mt-30"><i class="fas fa-angle-left" style="padding-right: 10px;"></i>Quay lại album</a>
-                </div>
+                    <div class="pagination-2 justify-content-center" style="display: flex">
+                        <a href="{{route("photos.index", $job->id)}}" class="butn bord curve mt-30"><i class="fas fa-angle-left" style="padding-right: 10px;"></i>Quay lại album</a>
+                    </div>
                 @endif
 
                 @if(!isset($usePaginate))
