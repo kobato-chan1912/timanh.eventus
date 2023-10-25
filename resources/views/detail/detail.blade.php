@@ -123,6 +123,11 @@
                         </div>
                     @endforeach
                 </div>
+
+                <div class="pagination">
+                    <a href="" class="butn bord curve mt-30"><i class="fas fa-angle-left" style="padding-right: 10px;"></i>Quay lại album</a>
+                </div>
+
                 @if(!isset($usePaginate))
                 {!! $photos->links() !!}
                 @endif
