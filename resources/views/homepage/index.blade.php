@@ -37,7 +37,7 @@
                                             </select>
 
                                             <a class="butn bord curve mt-30" style="background-color: white;" onclick="loadImage()">
-                                                <span style="color: black">Khám phá ngay</span>
+                                                <span style="color: black">Tìm ảnh</span>
                                             </a>
 
 
