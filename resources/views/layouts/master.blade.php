@@ -30,24 +30,24 @@
 
 <!-- ==================== Start Loading ==================== -->
 
-<div class="loading">
-    <span>E</span>
-    <span>V</span>
-    <span>E</span>
-    <span>N</span>
-    <span>T</span>
-    <span>U</span>
-    <span>S</span>
-    <span>
-        <img style="width: 180px" src="https://feedback.eventusproduction.com/assets/images/eventus-light.png" alt="">
-    </span>
+{{--<div class="loading">--}}
+{{--    <span>E</span>--}}
+{{--    <span>V</span>--}}
+{{--    <span>E</span>--}}
+{{--    <span>N</span>--}}
+{{--    <span>T</span>--}}
+{{--    <span>U</span>--}}
+{{--    <span>S</span>--}}
+{{--    <span>--}}
+{{--        <img style="width: 180px" src="https://feedback.eventusproduction.com/assets/images/eventus-light.png" alt="">--}}
+{{--    </span>--}}
 
-</div>
+{{--</div>--}}
 
 
 
-<div id="preloader">
-</div>
+{{--<div id="preloader">--}}
+{{--</div>--}}
 
 <!-- ==================== End Loading ==================== -->
 

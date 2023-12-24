@@ -7,7 +7,13 @@
 @endsection
 @section("page-css")
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
-
+    <style>
+        .custom-file-label::after{
+            content: "" !important;
+            border: none;
+            background: none;
+        }
+    </style>
 @endsection
 @section("content")
 
