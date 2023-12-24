@@ -220,7 +220,7 @@
             $('[data-fancybox="gallery"]').fancybox({
 
                 buttons: [
-                    "zoom",
+                    "download",
                     "slideShow",
                     "fullScreen",
                     "thumbs",
