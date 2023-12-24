@@ -165,7 +165,7 @@
 {{--                    </div>--}}
 {{--                </li>--}}
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="tel:0965389669">Liên hệ hợp tác: 0965.389.669</a>
+                    <a class="nav-link" style="font-size: 8px" target="_blank" href="tel:0965389669">Contact us: 0383.17.18.19 </a>
                 </li>
             </ul>
         </div>

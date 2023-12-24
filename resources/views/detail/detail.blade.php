@@ -53,7 +53,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-4">
                     <div class="htit">
-                        <h4><span>  </span> Giới thiệu </h4>
+{{--                        <h4><span>  </span> Giới thiệu </h4>--}}
                     </div>
                 </div>
                 <div class="col-lg-8 offset-lg-1 col-md-8">
@@ -84,7 +84,7 @@
                             <div class="input-group">
                                 <div class="custom-file">
                                     <input type="file" required class="custom-file-input" accept="image/*" name="file" id="inputGroupFile04" onchange="updateFileNameLabel(this)">
-                                    <label class="custom-file-label" for="inputGroupFile04">Up khuôn mặt cần tìm</label>
+                                    <label class="custom-file-label" for="inputGroupFile04">Up khuôn mặt cần tìm (chỉ 1 người)</label>
                                 </div>
                                 <div class="input-group-append">
                                     <button class="btn btn-outline-secondary" type="submit">Tìm kiếm ảnh</button>
@@ -143,15 +143,15 @@
 
         <!-- ==================== Start Footer ==================== -->
 
-        <footer class="sub-bg" style="height: 20px">
-            <div class="container">
-                <div class="copy-right text-center">
-                    <p>© {{\Carbon\Carbon::now()->year}} - Bản quyền thuộc về CÔNG TY TNHH EVENTUS VIỆT NAM - Giấy chứng nhận ĐKKD số 0107929531
+{{--        <footer class="sub-bg" style="height: 20px">--}}
+{{--            <div class="container">--}}
+{{--                <div class="copy-right text-center">--}}
+{{--                    <p>© {{\Carbon\Carbon::now()->year}} - Bản quyền thuộc về CÔNG TY TNHH EVENTUS VIỆT NAM - Giấy chứng nhận ĐKKD số 0107929531--}}
 
-                    </p>
-                </div>
-            </div>
-        </footer>
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </footer>--}}
 
         <!-- ==================== End Footer ==================== -->
 

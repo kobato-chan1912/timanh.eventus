@@ -1221,69 +1221,74 @@ a:hover, span:hover {
 
 /* ====================== [ End Text Animation & Images ] ====================== */
 /* ====================== [ Start Cursor Style ] ====================== */
-body {
-  cursor: none;
+
+a {
+    cursor: pointer;
 }
 
-.mouse-cursor {
-  position: fixed;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  border-radius: 50%;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  visibility: hidden;
-}
+/*body {*/
+/*  cursor: none;*/
+/*}*/
 
-.cursor-inner {
-  margin-left: 2px;
-  margin-top: 2px;
-  width: 6px;
-  height: 6px;
-  z-index: 10000001;
-  background-color: #12c2e9;
-  -webkit-transition: width .3s ease-in-out,
- height .3s ease-in-out,
- margin .3s ease-in-out,
- opacity .3s ease-in-out;
-  -o-transition: width .3s ease-in-out,
- height .3s ease-in-out,
- margin .3s ease-in-out,
- opacity .3s ease-in-out;
-  transition: width .3s ease-in-out,
- height .3s ease-in-out,
- margin .3s ease-in-out,
- opacity .3s ease-in-out;
-}
+/*.mouse-cursor {*/
+/*  position: fixed;*/
+/*  left: 0;*/
+/*  top: 0;*/
+/*  pointer-events: none;*/
+/*  border-radius: 50%;*/
+/*  -webkit-transform: translateZ(0);*/
+/*  transform: translateZ(0);*/
+/*  visibility: hidden;*/
+/*}*/
 
-.cursor-inner.cursor-hover {
-  margin-left: -40px;
-  margin-top: -40px;
-  width: 80px;
-  height: 80px;
-  background-color: #12c2e9;
-  opacity: .3;
-}
+/*.cursor-inner {*/
+/*  margin-left: 2px;*/
+/*  margin-top: 2px;*/
+/*  width: 6px;*/
+/*  height: 6px;*/
+/*  z-index: 10000001;*/
+/*  background-color: #12c2e9;*/
+/*  -webkit-transition: width .3s ease-in-out,*/
+/* height .3s ease-in-out,*/
+/* margin .3s ease-in-out,*/
+/* opacity .3s ease-in-out;*/
+/*  -o-transition: width .3s ease-in-out,*/
+/* height .3s ease-in-out,*/
+/* margin .3s ease-in-out,*/
+/* opacity .3s ease-in-out;*/
+/*  transition: width .3s ease-in-out,*/
+/* height .3s ease-in-out,*/
+/* margin .3s ease-in-out,*/
+/* opacity .3s ease-in-out;*/
+/*}*/
 
-.cursor-outer {
-  margin-left: -15px;
-  margin-top: -15px;
-  width: 40px;
-  height: 40px;
-  border: 1px solid #12c2e9;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  z-index: 10000000;
-  opacity: .5;
-  -webkit-transition: all .08s ease-out;
-  -o-transition: all .08s ease-out;
-  transition: all .08s ease-out;
-}
+/*.cursor-inner.cursor-hover {*/
+/*  margin-left: -40px;*/
+/*  margin-top: -40px;*/
+/*  width: 80px;*/
+/*  height: 80px;*/
+/*  background-color: #12c2e9;*/
+/*  opacity: .3;*/
+/*}*/
 
-.cursor-outer.cursor-hover {
-  opacity: 0;
-}
+/*.cursor-outer {*/
+/*  margin-left: -15px;*/
+/*  margin-top: -15px;*/
+/*  width: 40px;*/
+/*  height: 40px;*/
+/*  border: 1px solid #12c2e9;*/
+/*  -webkit-box-sizing: border-box;*/
+/*  box-sizing: border-box;*/
+/*  z-index: 10000000;*/
+/*  opacity: .5;*/
+/*  -webkit-transition: all .08s ease-out;*/
+/*  -o-transition: all .08s ease-out;*/
+/*  transition: all .08s ease-out;*/
+/*}*/
+
+/*.cursor-outer.cursor-hover {*/
+/*  opacity: 0;*/
+/*}*/
 
 /* ====================== [ End Cursor Style ] ====================== */
 /* ====================== [ Start progress-wrap ] ====================== */
