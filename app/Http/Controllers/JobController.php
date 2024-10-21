@@ -21,7 +21,8 @@ class JobController extends Controller
         $job = Job::find($id);
         $photos = $job->photos()->paginate(60);
         $photoCount = $job->photos()->count();
-        return view("detail.detail", compact('photos', 'job', 'photoCount'));
+        $showImage = false;
+        return view("detail.detail", compact('photos', 'job', 'photoCount', 'showImage'));
     }
 
     public function findSimilar($id, Request $request) //
