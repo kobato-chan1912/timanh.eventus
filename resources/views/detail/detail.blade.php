@@ -115,6 +115,7 @@
 
                     </div>
                 </div>
+                @if($showImage)
                 <div class="row lg-space">
                     @foreach($photos as $key => $photo)
                         <div class="col-lg-3 col-md-6">
@@ -129,6 +130,7 @@
                         </div>
                     @endforeach
                 </div>
+                @endif
 
                 @if(isset($success))
                     <div class="pagination-2 justify-content-center" style="display: flex">

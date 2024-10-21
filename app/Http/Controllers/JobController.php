@@ -52,7 +52,8 @@ class JobController extends Controller
                 $photoCount = $photos->count();
                 $usePaginate = 0;
                 $success = "Có $photoCount bức ảnh được tìm thấy!";
-                return view("detail.detail", compact('job', 'photos', 'usePaginate', 'success', 'photoCount', ));
+                $showImage = true;
+                return view("detail.detail", compact('job', 'photos', 'usePaginate', 'success', 'photoCount', 'showImage' ));
             }
 
             return redirect()->route("photos.index", $job->id)->with(["message" => "Hình ảnh phải có khuôn mặt!"]);
