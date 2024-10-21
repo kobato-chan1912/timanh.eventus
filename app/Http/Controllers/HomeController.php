@@ -12,6 +12,6 @@ class HomeController extends Controller
     public function index()
     {
         $jobs = Job::where("is_on_timanh", 1)->get();
-        return view("homepage.index", compact('jobs', 'showImage'));
+        return view("homepage.index", compact('jobs'));
     }
 }

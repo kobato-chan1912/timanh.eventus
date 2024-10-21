@@ -138,7 +138,7 @@
                     </div>
                 @endif
 
-                @if(!isset($usePaginate))
+                @if(!isset($usePaginate) && $showImage)
                 {!! $photos->links() !!}
                 @endif
 
